@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <h1 class="text-center">FAQ Page</h1>
+  <div id = "accordion">
+    <div class="card">
+           <div class = "card-header">
+                  <a class = "card-link" data-toggle = "collapse" href = "#collapseOne">
+                    What is your company’s support hours?
+                  </a>
+               </div>
+               <div id = "collapseOne" class = "collapse show" data-parent = "#accordion">
+                  <div class = "card-body"> Our support team is available 24/7 to assist you with your queries.
+               </div>
+               </div>
+    </div>
+    <div class = "card">
+               <div class = "card-header">
+                  <a class = "collapsed card-link" data-toggle = "collapse" href = "#collapseTwo">
+                     How can I contact customer support?
+                  </a>
+               </div>
+               <div id = "collapseTwo" class = "collapse" data-parent = "#accordion">
+                  <div class = "card-body">You can reach us via email at support@example.com or call us at +1 (800) 123-4567.
+       </div>
+               </div>
+            </div>
+            <div class = "card">
+               <div class = "card-header">
+                  <a class = "collapsed card-link" data-toggle = "collapse" href = "#collapseThree">
+                    Do you offer refunds?
+                  </a>
+               </div>
+               <div id = "collapseThree" class = "collapse" data-parent = "#accordion">
+                  <div class = "card-body">Yes, we offer a 30-day money-back guarantee on all our products and services.
+        </div>
+               </div>
+            </div>
+  </div> 
+  <h3 class="text-center">Customer Support Agents</h3>
+  <div class="card-deck">
+   <div class="card ">
+    <div class="card-body text-center">
+      <div class="card-header"><b>Alice Johnson</b></div>
+      <p>Senior Support Specialist</p>
+    </div>
+    <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">Contact</button>
+<div class="dropdown-menu dropdown-menu-right">
+<a class="dropdown-item" href="#">Add to Wishlist</a>
+<a class="dropdown-item" href="#">Compare</a>
+<a class="dropdown-item" href="#">Report</a>
+</div>
+  </div>
+  <div class="card ">
+    <div class="card-body text-center">
+      <div class="card-header"><b>Mark Thompson</b></div>
+      <p>Technical Support Engineer</p>
+    </div>
+    <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">Contact</button>
+<div class="dropdown-menu dropdown-menu-right">
+<a class="dropdown-item" href="#">Call</a>
+<a class="dropdown-item" href="#">Email</a>
+<a class="dropdown-item" href="#">Message</a>
+</div>
+  </div>
+  <div class="card ">
+    <div class="card-body text-center">
+      <div class="card-header"><b>Sophie Lee</b></div>
+      <p>Customer Care Executive</p>
+    </div>
+    <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">Contact</button>
+<div class="dropdown-menu dropdown-menu-right">
+<a class="dropdown-item" href="#">Call</a>
+<a class="dropdown-item" href="#">Email</a>
+<a class="dropdown-item" href="#">Message</a>
+</div>
+  </div>
+</body>
+</html>
